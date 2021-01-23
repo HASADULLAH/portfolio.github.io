@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="icon" href="../icons/code.svg" type="image/ico" />
+    <meta name="author" content="Paulina Weiher" />
+    <meta
+      name="keywords"
+      content="paulina weiher front-end web developer project portfolio"
+    />
+    <meta
+      name="description"
+      content="Front-end project with html, css and javascript for web developer portfolio by Paulina Weiher"
+    />
+  
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../projects/index.html">Project</a></li>
+          <li class="active"><a href="index.html">Contact</a></li>
+        </ul>
+      
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact">
+        <form action="mailto:hussain.asadullah18@gmail.com" method="post" enctype="text/plain">
+          <label for="name"
+            >Name:
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </label>
+          <label for="email"
+            >Email:
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+          </label>
+          <label for="message"
+            >Message:<br />
+            <textarea
+              type="message"
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
